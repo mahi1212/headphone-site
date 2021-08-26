@@ -48,6 +48,20 @@ body{
     color: #fff;
 }
 
-
+@media screen and (max-width:598px){
+    body{
+        padding: 0;
+    }
+    .navbar-logo img{
+        width: 10%;
+    }
+    .navbar{
+        display: block;
+        text-align: center;
+    }
+    .nav-list{
+        display: block;
+    }
+}
 
 
