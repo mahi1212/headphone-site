@@ -13,10 +13,6 @@ body{
     background-color: #0F0F10;
     padding: 1rem 13rem;
 }
- /* nav{
-    display: fixed;
-
- } */
 
 .navbar{
     display: flex;
@@ -26,6 +22,7 @@ body{
 
 .navbar-logo img{
     width: 50%;
+    cursor: pointer;
 }
 
 .nav-list{
@@ -38,7 +35,9 @@ body{
 }
 
 .nav-link a{
-    color: rgba(78, 76, 76, 0.883);
+    background: linear-gradient(to top, rgb(29, 28, 28),rgb(173, 170, 170));
+    color: transparent;
+    -webkit-background-clip: text;
     padding: 1rem 1.5rem;
     font-size: 1.2rem;
     font-weight: lighter;
@@ -126,6 +125,33 @@ body{
     margin-top: 3rem;
 }
 
-.home .overview h2{
+#home .overview h2{
     text-transform: uppercase;
+}
+
+.add-bag button{
+    font-size: 1.2rem;
+    background-color: #080808;
+    padding: 1.3rem 0.3rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    border: none;
+    color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+.add-bag i{
+    margin-right: .6rem;
+}
+.add-bag span{
+    margin: 0 0.8rem;
+}
+
+span.home-price{
+    font-weight: bold;
+}
+.add-bag button:hover{
+    background-color: #141515;
 }
