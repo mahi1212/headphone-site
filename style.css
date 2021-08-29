@@ -278,3 +278,39 @@ span.home-price{
 button:hover{
     background-color: #141515;
 }
+
+#product{
+    margin-top: 5rem;
+}
+
+.prod-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 4rem;
+}
+
+#product .card .prod-1 .row{
+    background-color: rgba(34, 33, 33, 0.575);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding: 0 20px;
+    margin-top: -4rem;
+}
+
+#product .card{
+    padding: 30px;
+}
+
+#product .card .prod-1 img{
+    width: 35%;
+    margin-left: 3rem;
+}
+
+#product .card .prod-1 .det,
+#product .card .prod-1 i{
+    margin-top: 2rem;
+}
