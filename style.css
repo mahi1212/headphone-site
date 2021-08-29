@@ -233,7 +233,8 @@ span.home-price{
 
 /* Case section */
 #case .heading{
-    margin-top: 4rem;
+    margin: 4rem 0;
+
 }
 .more-info button{
     font-size: 1.2rem;
@@ -313,4 +314,68 @@ button:hover{
 #product .card .prod-1 .det,
 #product .card .prod-1 i{
     margin-top: 2rem;
+}
+
+/* Footer starts here */
+footer{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 10rem 0;
+}
+
+footer > div {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+footer .site-logo img{
+    width: 50%;
+    cursor: pointer;
+}
+
+
+footer #nav-list li{
+    padding: 0.3rem 0;
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: thin;
+    color: rgb(122, 128, 122);
+    cursor: pointer;
+}
+
+#nav-list li:first-child{
+    font-weight: 800;
+    color: #fff;
+}
+
+footer .footer-email{
+    margin-top: -4.5rem;
+    margin-left: 3rem;
+
+}
+
+footer .footer-email input{
+    padding: 1rem;
+    display: inline;
+    background-color :#3e3e4171;
+    border: none;
+    color: #fff;
+}
+
+footer button{
+    color: #fff;
+    border: none;
+    background-color :#2d2d2e9a;
+    padding: 1rem 1rem;
+}
+
+.footer-email .social-media .icon{
+    background-color: #141515;
+    color: #fff;
+    padding: 10px;
+    margin-top: 1rem;
+    cursor: pointer;
 }
