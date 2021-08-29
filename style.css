@@ -230,3 +230,51 @@ span.home-price{
 #specs .text-part .left{
     margin-left: 4rem;
 }
+
+/* Case section */
+#case .heading{
+    margin-top: 4rem;
+}
+.more-info button{
+    font-size: 1.2rem;
+    background-color: #080808;
+    padding: 1.3rem 1rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    border: none;
+    color: #ccc;
+}
+
+.more-info button i{
+    padding: 0 0.3rem;
+}
+
+#case .case-img{
+    padding: 0 5rem;
+    margin-left: -8rem;
+}
+
+#case .text-part{
+    font-size: 1.3rem;
+    width: 25%;
+    color: #ccc;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(71, 70, 70, 0.377);
+    padding: 2rem 3rem;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.row-1 .text-part{
+    width: 50%;
+    padding: 2rem;
+}
+
+button:hover{
+    background-color: #141515;
+}
