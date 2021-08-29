@@ -167,7 +167,6 @@ span.home-price{
     height: 10vh;
 }
 
-
 #company i{
     color: blanchedalmond;
     display: flex;
@@ -180,4 +179,54 @@ span.home-price{
     font-size: 1.5rem;
     font-size: bolder;
     margin-left: 5px;
+}
+#specs{
+    margin-top: 7rem;
+}
+
+.row{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    background: linear-gradient(to top,rgba(29, 28, 28, 0.904),rgb(145, 143, 143));
+    color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-size: 5rem;
+}
+
+#specs .text-part .details{
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+#specs .info-div{
+    margin: 1rem;
+    padding: 5px ;
+}
+
+#specs .info-div i,
+#specs .info-div h3,
+#specs .info-div p{
+    margin: 5px;
+}
+
+#specs .info-div i{
+    font-size: 1.3rem;
+}
+
+#specs .info-div p{
+    color: rgb(145, 143, 143);
+}
+
+.image img{
+    width: 75%;
+}
+
+#specs .text-part .left{
+    margin-left: 4rem;
 }
