@@ -9,6 +9,8 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <!-- css link -->
     <link rel="stylesheet" href="style.css">
+    <!------------------ AOS Animation cdn ---------------->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!------------------ Font Awesome cdn ---------------->
 	<script src="https://kit.fontawesome.com/5b817a8fd6.js" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +24,7 @@
                 <li class="nav-link nav-link-active"><a href="#home">Home</a></li>
                 <li class="nav-link"><a href="#specs">Specs</a></li>
                 <li class="nav-link"><a href="#case">Case</a></li>
-                <li class="nav-link"><a href="product">Products</a></li>
+                <li class="nav-link"><a href="product">Product</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +35,7 @@
             <div class="img-part">
                 <img src="Images/home.png" alt="home page picture">
             </div>
-            <div class="home-text">
+            <div class="home-text" data-aos="fade-left">
                 <div class="home-title">
                     On ear
                 </div>
@@ -48,7 +50,7 @@
             </div>
         </section>
         <!-- Company section starts -->
-        <section id="company">
+        <section id="company" data-aos= "zoom-in">
             <i class="fab fa-apple fa-3x"><span class="icon-text">Apple</span></i>
             <i class="fab fa-spotify fa-3x"><span class="icon-text">Spotify</span></i>
             <i class="fab fa-amazon fa-3x"><span class="icon-text">Amazon</span></i>
@@ -59,7 +61,7 @@
         <section id="specs">
             <h1 class="heading">Specs</h1>
             <div class="row">
-                <div class="text-part">
+                <div class="text-part" data-aos="fade-left">
                     <div class="details">
                         <div class="info-div left">
                             <i class="fab fa-bluetooth-b"></i>
@@ -84,7 +86,7 @@
                     </div>
                 </div>
                 <!-- specs img -->
-                <div class="image">
+                <div class="image" data-aos = "fade-right">
                     <img src="Images/specs.png" alt="specs image">
                 </div>
             </div>
@@ -94,11 +96,11 @@
             <h1 class="heading">Case</h1>
             <div class="row">
                 <!-- case img -->
-                <div class="case-img">
+                <div class="case-img" data-aos = "fade-right">
                     <img src="Images/case.png" alt="case image">
                 </div>
                 <!-- Text case -->
-                <div class="text-part">
+                <div class="text-part" data-aos="fade-left">
                     <p class="wid-50">
                         With a comfortable and adaptable case so that you can store it whenever you want, and keep your durability forever.
                     </p>
@@ -108,7 +110,7 @@
                 </div>
             </div>
             <div class="row-1">
-                <div class="text-part">
+                <div class="text-part" data-aos="flip-right">
                     <h1>Immerse yourself in your music</h1>
                     <p>Get it now, up to 50% off.</p>
                     <div class="add-bag">
@@ -122,7 +124,7 @@
         </section>
         <section id="product">
             <h1 class="heading">Choose <br> Your Style</h1>
-            <div class="prod-collection">
+            <div class="prod-collection" data-aos="fade-up">
                 <div class="card">
                     <div class="prod-1">
                         <img src="Images/product1.png" alt="">
@@ -187,7 +189,7 @@
         </section>
     </main>
     <!-- footer starts here -->
-    <footer>
+    <footer data-aos="zoom-out">
         <div class="site-logo">
             <img src="images/logo.png" alt="logo">
         </div>
@@ -221,5 +223,12 @@
     </footer>
     <!-- js link -->
     <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1000
+        });
+    </script>
 </body>
 </html>
